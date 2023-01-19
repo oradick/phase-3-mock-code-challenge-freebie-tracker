@@ -11,6 +11,12 @@ Dev.create(name: "Mr. Meseeks")
 Dev.create(name: "Gazorpazop")
 
 puts "Creating freebies..."
+Freebie.create(item_name: "squishy seahorse", value: 3)
+Freebie.create(item_name: "baseball cap", value: 15)
+Freebie.create(item_name: "popsocket", value: 5)
+Freebie.create(item_name: "tote bag", value: 22)
+Freebie.create(item_name: "water bottle", value: 8)
+Freebie.create(item_name: "pen", value: 1)
 
 # ***************************************************************
 # * TODO: create freebies! Remember, a freebie belongs to a dev *
